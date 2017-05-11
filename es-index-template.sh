@@ -135,7 +135,35 @@ curl -XPUT "${ES_HOST:-localhost}:${ES_PORT:-9200}/_template/statsd-template" -d
                     "type": "float",
                     "index": "not_analyzed"
                 },
+                "mean_50": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "mean_75": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
                 "mean_90": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "mean_95": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "mean_99": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "mean_99_9": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "upper_50": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "upper_75": {
                     "type": "float",
                     "index": "not_analyzed"
                 },
@@ -143,7 +171,39 @@ curl -XPUT "${ES_HOST:-localhost}:${ES_PORT:-9200}/_template/statsd-template" -d
                     "type": "float",
                     "index": "not_analyzed"
                 },
+                "upper_95": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "upper_99": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "upper_99_9": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "sum_50": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "sum_75": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
                 "sum_90": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "sum_95": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "sum_99": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "sum_99_9": {
                     "type": "float",
                     "index": "not_analyzed"
                 },
