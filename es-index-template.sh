@@ -89,7 +89,7 @@ curl -XPUT "${ES_HOST:-localhost}:${ES_PORT:-9200}/_template/statsd-template" -d
                 }
             }
         },
-        "timer_data" : {
+        "timer_stats" : {
             "_source" : { "enabled" : true },
             "properties": {
                 "@timestamp": {
